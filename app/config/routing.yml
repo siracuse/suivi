@@ -1,0 +1,24 @@
+projet:
+  resource: "@ProjetBundle/Controller/"
+  type:     annotation
+  prefix:   /
+
+collaborateur:
+  resource: "@CollaborateurBundle/Controller/"
+  type:     annotation
+  prefix:   /
+
+
+
+#
+#luuugdb_projet_index:
+#  path:       /projet
+#  controller: App\Controller\ProjetController::index
+#
+#luuugdb_projet_view:
+#  path:       /projet/view/{id}
+#  controller: App\Controller\ProjetController::view
+#
+#luuugdb_projet_add:
+#  path:       /projet/add
+#  controller: App\Controller\ProjetController::add
